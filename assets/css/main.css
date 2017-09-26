@@ -1,1 +1,10 @@
 /* custom styles */
+.self-image {
+  margin: auto;
+  display: block;
+}
+
+.myName {
+  text-align: center;
+  margin: 10px auto;
+}

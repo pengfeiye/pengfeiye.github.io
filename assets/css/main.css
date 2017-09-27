@@ -1,38 +1,48 @@
 /* custom styles */
-.self-image {
-  margin: 10px auto;
-  display: block;
-  border-radius: 5%;
+body {
+  background-color: rgba(195, 155, 211, 1);
 }
 
-.myName {
-  text-align: center;
+#page-wrapper {
+  background-color: lightblue;
+  padding: 1px;
+  max-width: 80%;
+  margin:auto;
 }
 
+  .self-image {
+    margin: 10px auto;
+    display: block;
+    border-radius: 5%;
+  }
 
-ul {
-  list-style: none;
+  .myName {
+    text-align: center;
+  }
+
+
+header {
+  background-color: rgba(0, 0, 0, .3);
+  height: 50px;
+  padding:1px;;
 }
 
-nav {
+  ul {
+    list-style: none;
+  }
 
-  background-color: rgba(218, 247, 166, .5);
+  ul li{
+    display: inline-block;
+  }
 
-}
-
-ul li{
-  display: inline-block;
-}
-
-.headNav {
-  padding:5px;
-  background-color: #99e6ff;
-  border: solid;
-  border-width: medium;
-  border-radius: 5px;
-  color:white;
-  text-shadow: 1px 1px 2px black;
-}
+  .headNav {
+    background-color: #99e6ff;
+    border: solid;
+    border-width: medium;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+  }
 
 footer {
   text-align: right;
@@ -40,16 +50,16 @@ footer {
   height:200px;
 }
 
-.allAboutMe {
-  padding-top: 10px;
-  margin-right: 5%;
-}
+  .allAboutMe {
+    padding-top: 10px;
+    margin-right: 5%;
+  }
 
-.myWorks {
-  height:1000px;
-}
+  .myWorks {
+    height:1000px;
+  }
 
-a {
-  text-decoration: none;
-  color: white;
+  a {
+    text-decoration: none;
+    color: white;
 }

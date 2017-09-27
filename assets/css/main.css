@@ -1,10 +1,47 @@
 /* custom styles */
 .self-image {
-  margin: auto;
+  margin: 10px auto;
   display: block;
+  border-radius: 5%;
+  border: solid;
 }
 
 .myName {
   text-align: center;
-  margin: 10px auto;
+}
+
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: rgba(218, 247, 166, .5);
+  
+}
+
+ul li{
+  display: inline-block;
+}
+
+.navButton {
+  background-color: #99e6ff;
+  border-radius: 2px;
+  color:white;
+  text-shadow: 1px 1px 2px black;
+}
+
+footer {
+  text-align: right;
+  background-color: lightgrey;
+  height:200px;
+}
+
+.allAboutMe {
+  padding-top: 10px;
+  margin-right: 5%;
+}
+
+.myWorks {
+  height:500px;
 }

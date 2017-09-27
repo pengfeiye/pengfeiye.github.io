@@ -3,7 +3,6 @@
   margin: 10px auto;
   display: block;
   border-radius: 5%;
-  border: solid;
 }
 
 .myName {
@@ -16,17 +15,21 @@ ul {
 }
 
 nav {
+
   background-color: rgba(218, 247, 166, .5);
-  
+
 }
 
 ul li{
   display: inline-block;
 }
 
-.navButton {
+.headNav {
+  padding:5px;
   background-color: #99e6ff;
-  border-radius: 2px;
+  border: solid;
+  border-width: medium;
+  border-radius: 5px;
   color:white;
   text-shadow: 1px 1px 2px black;
 }
@@ -43,5 +46,10 @@ footer {
 }
 
 .myWorks {
-  height:500px;
+  height:1000px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

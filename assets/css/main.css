@@ -3,29 +3,78 @@ body {
   background-color: rgba(195, 155, 211, 1);
 }
 
-#page-wrapper {
-  background-color: lightblue;
-  padding: 1px;
-  max-width: 80%;
-  margin:auto;
-}
-
-  .self-image {
-    margin: 10px auto;
-    display: block;
-    border-radius: 5%;
+  #page-wrapper {
+    background-color: lightblue;
+    padding: 1px;
+    max-width: 80%;
+    margin:auto;
+    width: 100%;
   }
 
-  .myName {
-    text-align: center;
+    h1 {
+      margin: 0 auto;
+    }
+
+    .self-image {
+      margin: 30px auto;
+      display: block;
+      border-radius: 5%;
+      width: 50%;
+    }
+
+    .myName {
+      text-align: center;
+      float: left;
+      margin:2%;
+      max-height: 500px;
+      height: 500px;
+      max-width: 46%;
+      width: 46%;
+      padding-top: 1%;
+      border-radius: 10%;
+      background-color: lightyellow;
+
+    }
+
+    .about {
+      text-align: center;
+      float: right;
+      margin:2%;
+      max-height: 500px;
+      height: 500px;
+      max-width: 46%;
+      width: 46%;
+      padding-top: 1%;
+      border-radius: 10%;
+      background-color: lightpink;
+    }
+
+    .myWorks {
+      clear: both;
+      margin: 2%;
+    }
+
+
+  header {
+    background-color: transparent;
+    height: 50px;
+    padding:1px;;
   }
-
-
-header {
-  background-color: rgba(0, 0, 0, .3);
-  height: 50px;
-  padding:1px;;
-}
+    .fixedNav {
+      position: fixed;
+      background-color: rgba(0, 0, 0, .3);
+      height: 50px;
+      padding:1px;;
+      width: 100%;
+    }
+    .headNav {
+      background-color: #99e6ff;
+      border: solid;
+      border-width: medium;
+      border-radius: 5px;
+      color:white;
+      text-shadow: 1px 1px 2px black;
+    }
 
   ul {
     list-style: none;
@@ -35,31 +84,28 @@ header {
     display: inline-block;
   }
 
-  .headNav {
-    background-color: #99e6ff;
-    border: solid;
-    border-width: medium;
-    border-radius: 5px;
-    color:white;
-    text-shadow: 1px 1px 2px black;
+
+  footer {
+    text-align: right;
+    background-color: lightgrey;
+    height:200px;
   }
 
-footer {
-  text-align: right;
-  background-color: lightgrey;
-  height:200px;
-}
+    .allAboutMe {
+      padding-top: 10px;
+      margin-right: 5%;
+    }
 
-  .allAboutMe {
-    padding-top: 10px;
-    margin-right: 5%;
-  }
+    .myWorks {
+      height:1000px;
+    }
 
-  .myWorks {
-    height:1000px;
-  }
+    a {
+      text-decoration: none;
+      color: white;
+    }
 
-  a {
-    text-decoration: none;
-    color: white;
-}
+    .contactIcon {
+      height: 50px;
+      width: 50px;
+    }

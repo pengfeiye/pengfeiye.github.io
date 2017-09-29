@@ -9,6 +9,7 @@ body {
     max-width: 80%;
     margin:auto;
     width: 100%;
+    border-radius: 5%;
   }
 
     h1 {
@@ -87,8 +88,9 @@ body {
 
   footer {
     text-align: right;
-    background-color: lightgrey;
-    height:200px;
+    background: url(/home/pengfei/wdi/pengfeiye.github.io/img/footer3.png);
+    padding: 1px;
+    background-size: cover;
   }
 
     .allAboutMe {

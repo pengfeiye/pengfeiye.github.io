@@ -1,7 +1,7 @@
 /* custom styles */
 
 body {
-    background-image: url("./assets/imgs/Website_Background.jpg");
+    background-image: url("../imgs/Website_Background.jpg");
 }
 #page-wrapper {
     background-color: rgba(255, 255, 255, .3);
@@ -82,7 +82,7 @@ ul li {
 }
 footer {
     text-align: right;
-    background: url("/assets/imgs/footer3.png");
+    background: url("../imgs/footer3.png");
     padding: 1px;
     background-size: cover;
 }
